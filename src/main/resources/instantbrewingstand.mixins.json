@@ -3,7 +3,8 @@
 	"package": "com.tizio.instantbrewingstand.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"InstantBrewing"
+		"InstantBrewing",
+        "BrewingStandBlockEntityAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1
